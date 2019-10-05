@@ -7,6 +7,7 @@ hi Normal ctermfg=187
 hi Type cterm=bold ctermfg=189
 hi Statement cterm=bold ctermfg=15
 hi Identifier cterm=none ctermfg=15
+hi Title ctermfg=187
 hi Comment ctermfg=33
 hi Constant ctermfg=43
 hi Special ctermfg=43
@@ -21,10 +22,16 @@ hi Todo ctermfg=0 ctermbg=202
 hi TabLine ctermfg=247 ctermbg=236 cterm=none
 hi TabLineSel ctermfg=253 ctermbg=0 cterm=bold
 hi TabLineFill ctermfg=247 ctermbg=236 cterm=none
-hi JavaScript ctermfg=187
 hi diffAdded ctermfg=10
 hi diffRemoved ctermfg=9
 
+hi link JavaScript Normal
+hi link htmlSpecialChar Normal
+hi link htmlLink Normal
+hi link htmlUnderline Normal
+hi link htmlItalic Normal
+hi link htmlBold Normal
+hi link htmlBoldItalic Normal
 hi link vimCommentString Comment
 hi link vimCommentTitle Comment
-
+hi link cssVendor Type
